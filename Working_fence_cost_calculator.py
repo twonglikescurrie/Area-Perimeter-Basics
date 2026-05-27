@@ -26,11 +26,11 @@ while keep_going == "":
 
     # Get width and height
     width = num_check("Width: ")
-    height = num_check("Height: ")
+    length = num_check("Length: ")
     cost = num_check("Cost per meter: $")
 
     # Calculate perimeter and price for the fence
-    perimeter = 2 * (width + height)
+    perimeter = 2 * (width + length)
 
     price = perimeter * cost
 
@@ -43,4 +43,4 @@ while keep_going == "":
     keep_going = input("\nPress <enter> to keep going or any key to quit: ")
 
 print()
-print("Program ended")
+print("Thank you for using the calculator")
